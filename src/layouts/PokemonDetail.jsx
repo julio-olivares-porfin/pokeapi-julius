@@ -32,7 +32,7 @@ function DetallePokemon() {
 
   return (
     <Container className="mt-5 text-center main">
-      <h1>¿Quién es ese pokemon?</h1>
+      <h1>¿Quién es ese Pokémon?</h1>
       <Card className="p-3 poke-card">
         <Row>
           <Col md={6}>
