@@ -31,8 +31,8 @@ function DetallePokemon() {
   }
 
   return (
-    <Container className="mt-5 text-center">
-      <h1>Detalle Pokemon</h1>
+    <Container className="mt-5 text-center main">
+      <h1>¿Quién es ese pokemon?</h1>
       <Card className="p-3 poke-card">
         <Row>
           <Col md={6}>
@@ -66,7 +66,7 @@ function DetallePokemon() {
           </Col>
         </Row>
       </Card>
-      <button className="btn btn-secondary mt-4" onClick={irAPokemones}>
+      <button className="ochobit-button-small" onClick={irAPokemones}>
         Volver a buscar un pokemon
       </button>
     </Container>

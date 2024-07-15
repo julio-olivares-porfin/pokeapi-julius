@@ -6,7 +6,7 @@ function PokeNavbar() {
   const setActiveClass = ({ isActive }) => (isActive ? "active" : undefined);
 
   return (
-    <Navbar className="navbar-color" expand="lg">
+    <Navbar className="navbarcss" expand="lg">
       <Container className='navbar-control'>
         <Navbar.Brand as={NavLink} to="/">
           {" "}

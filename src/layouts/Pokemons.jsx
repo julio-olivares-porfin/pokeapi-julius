@@ -65,7 +65,7 @@ function Pokemones() {
 
   return (
     <div>
-      <div className="d-flex flex-column align-items-center justify-content-center">
+      <div className="d-flex flex-column align-items-center justify-content-center main">
         <h1>Selecciona un Pokemon</h1>
         <select className="m-3" onChange={handleSelect}>
           <option hidden>Selecciona un pokemon</option>
@@ -78,17 +78,17 @@ function Pokemones() {
             );
           })}
         </select>
-        <button className="btn btn-secondary" onClick={irAPokemonDetalle}>
+        <button className="ochobit-button-small" onClick={irAPokemonDetalle}>
           Ver Detalle
         </button>
       </div>
       <br />
       <div className="pagination d-flex justify-content-center align-items-center">
-        <button onClick={handlePrevPage} disabled={offset === 0}>
+        <button className="ochobit-button-small-v2" onClick={handlePrevPage} disabled={offset === 0}>
           Anterior
         </button>
         <span className="p-2">{`${rangeStart}-${rangeEnd}`}</span>
-        <button onClick={handleNextPage} disabled={offset === 1300}>
+        <button className="ochobit-button-small-v2" onClick={handleNextPage} disabled={offset === 1300}>
           Siguiente
         </button>
       </div>
