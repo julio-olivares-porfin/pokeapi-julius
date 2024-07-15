@@ -67,7 +67,7 @@ function DetallePokemon() {
         </Row>
       </Card>
       <button className="ochobit-button-small" onClick={irAPokemones}>
-        Volver a buscar un pokemon
+        busca otro pokemon
       </button>
     </Container>
   );
