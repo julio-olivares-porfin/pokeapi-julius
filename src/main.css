@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  background-color: rgb(243, 243, 243);
+}
+
+.home-button {
+  font-family: "Pixelify Sans", sans-serif;
+  color: black;
+}
+
+.navbartext {
+  font-family: "Pixelify Sans", sans-serif;
+}
